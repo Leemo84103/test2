@@ -1,0 +1,367 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+*,*::before,*::after{
+    box-sizing: border-box;
+    border: solid 1px #747474;
+    color: #221E1F;
+    
+}
+.warp{
+    max-width: 100vw;
+    margin: 0 auto;
+}
+
+.header{
+    margin: 0 auto;
+    background-image: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/53d3c0b0e4d2885789ac1fcb666e427365a39207/chatTalker_images/banner.svg");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: contain;
+    max-width: 100vw;
+    margin-bottom: 100px;
+    background-color: #F7F9FD;
+    border-bottom-left-radius: 400px;
+    height: 70vh;
+    position: relative;
+    
+}
+
+
+.robot{
+    max-width: 100vw;
+    margin: 0 auto;
+    position: relative;
+   
+}
+.logo{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 24px;
+    align-items: center;
+    margin-bottom: 24px;
+    margin-left: 10.3%;
+    margin-right: 10.3%;
+}
+.logoicon{
+    max-width: 218px;
+}
+.logo img{
+    max-width: 100%;
+}
+.logopay a{
+    text-align: center;
+    align-items: center;
+    color: #FFF;
+    background-color: #FF5D50;
+    text-decoration: none;
+    padding: 8px 32px 8px 32px;
+    border-radius: 50px;
+}
+
+.logopay a:hover{
+    color: #FF5D50;
+    background-color: #FFF;
+    border: 1px solid #FF5D50;    
+}
+.title{
+    
+    margin-top: 30px;
+    display: flex;
+    
+}
+
+.container{
+    max-width: 1088px;
+    margin: 0 auto;
+}
+.pay{
+    max-width: 41.4%;
+    
+    margin-top: 92px;
+    margin-left: 10.3%;
+}
+
+.pay h1{
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 1.5;
+    margin-bottom: 16px;
+}
+.pay h4{
+    font-size: 16px;
+    margin-bottom: 180px;
+}
+.background{
+    height: 56vh;
+    max-width: 885px;
+    position: absolute;
+    top: 0%;
+    left: 35%;
+
+}
+
+
+.top a{
+    position: fixed;
+    border-radius: 50px;
+    background-color: #56C4C5;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 26px 17px 26px 17px;
+    top: 85vh;
+    left: 170vh;
+}
+.top p{
+    color: #fff;
+}
+
+.way{
+    margin: 0 auto;
+    max-width: 909px;
+    margin-top: 100px;
+}
+
+.way h2{
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 48px;
+    text-align: center;
+    
+}
+
+.number{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 84px 50px 89px;
+
+    
+}
+
+.number a{
+    display: block;
+    
+    border: 1px solid #56C4C5;
+    padding: 12px 32px 12px 32px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #56C4C5;
+    border-radius: 45px;
+    text-align: center;
+    max-width: 134px
+
+}
+.number a:hover{
+    border: 1px solid #fff;
+    background-color: #56C4C5;
+    color: #fff;
+}
+.big a{
+    padding: 12px 30px 12px 28px;
+    
+}
+.how{
+    display: flex;
+    justify-content: space-between;
+    max-width: 909px;
+    margin-bottom: 100px;
+}
+.how li{
+    max-width: calc( 50% - 21px );
+}
+.normal{
+    
+    padding: 10px 23px 32px 29px ;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 10px;
+}
+.normal h3{
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold;
+    margin: 10px ;
+}
+.normal p{
+    border-top: 2px solid #F5F5F5;
+    line-height: 1.5;
+    text-align: center;
+    padding-top: 24px;
+    margin-bottom: 32px;
+}
+.normal sup{
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 8px;
+}
+.user{
+    display: flex;
+    flex-direction: column;
+    max-width: 169px;
+}
+.much{
+    display: flex;
+    flex-direction: row;
+}
+.total{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 32px;
+    
+}
+.total h3{
+   padding-top: 25px;
+}
+.check li{
+    display: flex;
+    flex-direction: row;
+    max-width: 329.5px;
+    margin-bottom: 16px;
+    
+}
+.much h5{
+    font-size: 32px;
+    color: #56C4C5;
+}
+.much sub{
+    font-size: 12px;
+    padding-top: 10px;
+    margin-left: 8px;
+    color: #56C4C5;
+}
+.user{
+    background-color: #F5F5F5;
+    border-radius: 10px;
+    padding: 24px 32px 24px 32px;
+}
+.money h5{
+    font-size: 32px;
+    
+}
+.money sub{
+    font-size: 12px;
+    padding-top: 10px;
+    margin-left: 8px;
+    
+}
+.money{
+    display: flex;
+    flex-direction: row;
+}
+
+.check img{
+    height: 16px;
+}
+.check p{
+    padding: 0;
+    margin: 0;
+    margin-left: 12.9px;
+}
+.play{
+    
+    margin: 32px 110px 0 120px;
+    
+}
+.play a{
+    color: #FFF;
+    padding: 12px 32px 12px 32px ;
+    background-color: #56C4C5;
+    border-radius: 50px;
+    text-decoration: none;
+    
+}
+.play a:hover{
+    background-color: #fff;
+    color: #56C4C5;
+    border: solid 1px #56C4C5;
+}
+.question{
+    margin-bottom: 100px;
+    
+}
+.plus li{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 32px 16px 32px;
+    font-weight: bold;
+    font-size: 18px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 10px;
+    margin-bottom: 16px;
+}
+.spe {
+    display: flex;
+    flex-direction: column;
+}
+.said{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.spe p{
+    color: #747474;
+}
+.said p{
+    color: #56C4C5;
+    box-shadow: none;
+}
+.reply{
+    padding: 24px 32px 32px 32px;
+    line-height: 2;
+    display: block;
+}
+
+.footer{
+    background-color: #F5F5F5;
+    text-align: center;
+    padding: 16px 0px;
+}
